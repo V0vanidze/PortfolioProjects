@@ -1,8 +1,3 @@
---SELECT *
---FROM EmployeeDemographics
---WHERE EmployeeID >= 1002
-
-
 select Location, date, total_cases, new_cases, total_deaths, population
 from PortfolioProject..CovidDeaths 
 order by 1,2
